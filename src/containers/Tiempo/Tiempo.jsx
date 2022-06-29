@@ -1,11 +1,8 @@
-import { useEffect } from "react";
+import { useEffect } from "react"
 import axios from 'axios'
 import { useDispatch, useSelector } from "react-redux"
-
 import { Card, Container, Row, Col, Button } from 'react-bootstrap'
-
-import { selectWeather, addWeatherData, removeCard } from "./tiempoSlice";
-
+import { selectWeather, addWeatherData, removeCard } from "./tiempoSlice"
 import WeatherCard from '../../components/WeatherCard/WeatherCard'
 
 //import './Tiempo.scss'

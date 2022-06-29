@@ -1,7 +1,7 @@
-import React from "react";
-import { Button, Form, Row, Col } from 'react-bootstrap';
+import React from "react"
+import { Button, Form, Row, Col } from 'react-bootstrap'
 
-const Login = props => {
+const Login = props => { 
     return (
         <Row className="justify-content-md-center">
             
