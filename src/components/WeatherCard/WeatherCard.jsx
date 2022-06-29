@@ -1,8 +1,8 @@
 import React from "react";
 import './WeatherCard.scss'
 
-const WeatherCard = props => {
-    
+const WeatherCard = props => { 
+
     return (
         <div className="WeatherCard">
             <p>Ciudad: {props.data.name}</p>
@@ -11,6 +11,7 @@ const WeatherCard = props => {
                 <span>max: {props.data.temperatures.max}</span>
                 <span>min: {props.data.temperatures.min}</span>
             </p>
+            {props.children}
         </div>
     )
 }
